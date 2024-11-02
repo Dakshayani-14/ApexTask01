@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-pop Merchant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>K-pop Merchant Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="product-list">
+            <article class="product">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71UPiZ4MLML._SL1500_.jpg" alt="K-Pop Album">
+                <h2>K-Pop Album</h2>
+                <p>Price: ₹7455</p>
+                <button onclick="addToCart('K-Pop Album', 7455)">Add to Cart</button>
+            </article>
+            <article class="product">
+                <img src="https://http2.mlstatic.com/bts-army-bomb-ver-2-oficial-light-stick-D_NQ_NP_827122-MLM26706787801_012018-F.jpg" alt="BTS ArmyBomb">
+                <h2>BTS ArmyBomb</h2>
+                <p>Price: ₹5900</p>
+                <button onclick="addToCart('K-Pop BTS ArmyBomb', 5900)">Add to Cart</button>
+            </article>
+            <article class="product">
+                <img src="https://i.pinimg.com/originals/da/0c/f8/da0cf821e9fb0cf982008c3650f67ce2.jpg" alt="Blackpink LightStick">
+                <h2>Blackpink LightStick</h2>
+                <p>Price: ₹4000</p>
+                <button onclick="addToCart('BlackPink LightStick', 4000)">Add to Cart</button>
+            </article>
+            <article class="product">
+                <img src="https://merchbar.imgix.net/product/cdified/upc/56/4988031256183.jpg?w=1280&h=1280&quality=60&auto=compress%252Cformat" alt="K-Pop DVD">
+                <h2>K-Pop DVD</h2>
+                <p>Price: ₹6635</p>
+                <button onclick="addToCart('K-Pop DVD', 6635)">Add to Cart</button>
+            </article>
+            <article class="product">
+                <img src="https://th.bing.com/th/id/OIP.K38yVEsVlsmZ1hwhKD_C_wHaFP?w=230&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="k=pop Stickers">
+                <h2>kpop Stickers</h2>
+                <p>Price: ₹1500</p>
+                <button onclick="addToCart('K-Pop Stickers',1500)">Add to Cart</button>
+            </article>
+            <!-- Add more products as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 K-Pop Merchant Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
